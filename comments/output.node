@@ -1,0 +1,207 @@
+nohup: ignoring input
+
+> comments@0.0.0 start /opt/bitnami/apache2/htdocs/CS360Lab8/comments
+> node ./bin/www
+
+Connected
+[0mGET / [36m304 [0m5.767 ms - -[0m
+[0mGET / [32m200 [0m3.511 ms - 598[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.054 ms - -[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56e9b464ad4c616f0cd03a90 },
+  { __v: 0,
+    Comment: 'Teacher',
+    Name: 'Clement',
+    _id: 56e9b469ad4c616f0cd03a91 },
+  { __v: 0,
+    Comment: 'Smart Guy',
+    Name: 'Dallin',
+    _id: 56e9b472ad4c616f0cd03a92 } ]
+[0mGET /comment [36m304 [0m19.799 ms - -[0m
+POST comment route
+{ Name: 'Test', Comment: 'Test' }
+{ _id: 56e9b63f2cb095c50c76a9fa, Comment: 'Test', Name: 'Test' }
+{ _id: 56e9b63f2cb095c50c76a9fa,
+  Comment: 'Test',
+  Name: 'Test',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m29.681 ms - 2[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56e9b464ad4c616f0cd03a90 },
+  { __v: 0,
+    Comment: 'Teacher',
+    Name: 'Clement',
+    _id: 56e9b469ad4c616f0cd03a91 },
+  { __v: 0,
+    Comment: 'Smart Guy',
+    Name: 'Dallin',
+    _id: 56e9b472ad4c616f0cd03a92 },
+  { __v: 0,
+    Comment: 'Test',
+    Name: 'Test',
+    _id: 56e9b63f2cb095c50c76a9fa } ]
+[0mGET /comment [32m200 [0m7.067 ms - 308[0m
+[0mGET / [36m304 [0m0.319 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.321 ms - -[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56e9b464ad4c616f0cd03a90 },
+  { __v: 0,
+    Comment: 'Teacher',
+    Name: 'Clement',
+    _id: 56e9b469ad4c616f0cd03a91 },
+  { __v: 0,
+    Comment: 'Smart Guy',
+    Name: 'Dallin',
+    _id: 56e9b472ad4c616f0cd03a92 },
+  { __v: 0,
+    Comment: 'Test',
+    Name: 'Test',
+    _id: 56e9b63f2cb095c50c76a9fa } ]
+[0mGET /comment [36m304 [0m2.347 ms - -[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56e9b464ad4c616f0cd03a90 },
+  { __v: 0,
+    Comment: 'Teacher',
+    Name: 'Clement',
+    _id: 56e9b469ad4c616f0cd03a91 },
+  { __v: 0,
+    Comment: 'Smart Guy',
+    Name: 'Dallin',
+    _id: 56e9b472ad4c616f0cd03a92 },
+  { __v: 0,
+    Comment: 'Test',
+    Name: 'Test',
+    _id: 56e9b63f2cb095c50c76a9fa } ]
+[0mGET /comment [36m304 [0m2.483 ms - -[0m
+[0mGET / [36m304 [0m0.283 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.387 ms - -[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56e9b464ad4c616f0cd03a90 },
+  { __v: 0,
+    Comment: 'Teacher',
+    Name: 'Clement',
+    _id: 56e9b469ad4c616f0cd03a91 },
+  { __v: 0,
+    Comment: 'Smart Guy',
+    Name: 'Dallin',
+    _id: 56e9b472ad4c616f0cd03a92 },
+  { __v: 0,
+    Comment: 'Test',
+    Name: 'Test',
+    _id: 56e9b63f2cb095c50c76a9fa } ]
+[0mGET /comment [36m304 [0m2.810 ms - -[0m
+[0mGET / [36m304 [0m0.575 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.769 ms - -[0m
+POST comment route
+{ Name: 'Nate', Comment: 'Me' }
+{ _id: 56f091fc2cb095c50c76a9fb, Comment: 'Me', Name: 'Nate' }
+{ _id: 56f091fc2cb095c50c76a9fb,
+  Comment: 'Me',
+  Name: 'Nate',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m4.365 ms - 2[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56e9b464ad4c616f0cd03a90 },
+  { __v: 0,
+    Comment: 'Teacher',
+    Name: 'Clement',
+    _id: 56e9b469ad4c616f0cd03a91 },
+  { __v: 0,
+    Comment: 'Smart Guy',
+    Name: 'Dallin',
+    _id: 56e9b472ad4c616f0cd03a92 },
+  { __v: 0,
+    Comment: 'Test',
+    Name: 'Test',
+    _id: 56e9b63f2cb095c50c76a9fa },
+  { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56f091fc2cb095c50c76a9fb } ]
+[0mGET /comment [32m200 [0m4.221 ms - 380[0m
+[0mGET / [36m304 [0m0.293 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.356 ms - -[0m
+[0mGET http://www.baidu.com/cache/global/img/gs.gif [33m404 [0m429.969 ms - 1978[0m
+[0mGET / [32m200 [0m3.936 ms - 598[0m
+[0mGET /javascripts/comments.js [32m200 [0m3.007 ms - 846[0m
+[0mGET /favicon.ico [33m404 [0m41.645 ms - 1978[0m
+[0mGET / [36m304 [0m0.413 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.322 ms - -[0m
+[0mGET / [36m304 [0m2.040 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.861 ms - -[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56e9b464ad4c616f0cd03a90 },
+  { __v: 0,
+    Comment: 'Teacher',
+    Name: 'Clement',
+    _id: 56e9b469ad4c616f0cd03a91 },
+  { __v: 0,
+    Comment: 'Smart Guy',
+    Name: 'Dallin',
+    _id: 56e9b472ad4c616f0cd03a92 },
+  { __v: 0,
+    Comment: 'Test',
+    Name: 'Test',
+    _id: 56e9b63f2cb095c50c76a9fa },
+  { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56f091fc2cb095c50c76a9fb } ]
+[0mGET /comment [32m200 [0m7.238 ms - 380[0m
+POST comment route
+{ Name: 'Bob', Comment: 'New Comment!' }
+{ _id: 570da2f92cb095c50c76a9fc,
+  Comment: 'New Comment!',
+  Name: 'Bob' }
+{ _id: 570da2f92cb095c50c76a9fc,
+  Comment: 'New Comment!',
+  Name: 'Bob',
+  __v: 0 }
+[0mPOST /comment [32m200 [0m4.928 ms - 2[0m
+In the GET route
+[ { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56e9b464ad4c616f0cd03a90 },
+  { __v: 0,
+    Comment: 'Teacher',
+    Name: 'Clement',
+    _id: 56e9b469ad4c616f0cd03a91 },
+  { __v: 0,
+    Comment: 'Smart Guy',
+    Name: 'Dallin',
+    _id: 56e9b472ad4c616f0cd03a92 },
+  { __v: 0,
+    Comment: 'Test',
+    Name: 'Test',
+    _id: 56e9b63f2cb095c50c76a9fa },
+  { __v: 0,
+    Comment: 'Me',
+    Name: 'Nate',
+    _id: 56f091fc2cb095c50c76a9fb },
+  { __v: 0,
+    Comment: 'New Comment!',
+    Name: 'Bob',
+    _id: 570da2f92cb095c50c76a9fc } ]
+[0mGET /comment [32m200 [0m4.363 ms - 461[0m
